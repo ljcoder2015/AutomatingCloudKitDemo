@@ -11,11 +11,11 @@
 		59037F71267881B500AEADA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59037F70267881B500AEADA4 /* SceneDelegate.swift */; };
 		59037F73267881B500AEADA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59037F72267881B500AEADA4 /* ViewController.swift */; };
 		59037F76267881B500AEADA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59037F74267881B500AEADA4 /* Main.storyboard */; };
-		59037F79267881B500AEADA4 /* AutomatingCloudKitDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59037F77267881B500AEADA4 /* AutomatingCloudKitDemo.xcdatamodeld */; };
 		59037F7B267881B600AEADA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59037F7A267881B600AEADA4 /* Assets.xcassets */; };
 		59037F7E267881B600AEADA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59037F7C267881B600AEADA4 /* LaunchScreen.storyboard */; };
 		59CCFD5B267C2E7700E7A460 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CCFD5A267C2E7700E7A460 /* CloudKit.framework */; };
 		59CCFD6C267C772A00E7A460 /* CloudKitSchema.ckdb in Resources */ = {isa = PBXBuildFile; fileRef = 59CCFD6B267C772A00E7A460 /* CloudKitSchema.ckdb */; };
+		59D078FB267D858D00C26FC1 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D078FA267D858D00C26FC1 /* Department.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,14 +24,13 @@
 		59037F70267881B500AEADA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		59037F72267881B500AEADA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59037F75267881B500AEADA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		59037F78267881B500AEADA4 /* AutomatingCloudKitDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutomatingCloudKitDemo.xcdatamodel; sourceTree = "<group>"; };
 		59037F7A267881B600AEADA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59037F7D267881B600AEADA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59037F7F267881B600AEADA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59CCFD58267C2E6F00E7A460 /* AutomatingCloudKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutomatingCloudKitDemo.entitlements; sourceTree = "<group>"; };
 		59CCFD5A267C2E7700E7A460 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		59CCFD62267C3AFB00E7A460 /* AutomatingCloudKitDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomatingCloudKitDemoTests.swift; sourceTree = "<group>"; };
 		59CCFD6B267C772A00E7A460 /* CloudKitSchema.ckdb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CloudKitSchema.ckdb; sourceTree = "<group>"; };
+		59D078FA267D858D00C26FC1 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				59CCFD6B267C772A00E7A460 /* CloudKitSchema.ckdb */,
-				59CCFD58267C2E6F00E7A460 /* AutomatingCloudKitDemo.entitlements */,
 				59037F6E267881B500AEADA4 /* AppDelegate.swift */,
 				59037F70267881B500AEADA4 /* SceneDelegate.swift */,
 				59037F72267881B500AEADA4 /* ViewController.swift */,
+				59D078FA267D858D00C26FC1 /* Department.swift */,
 				59037F74267881B500AEADA4 /* Main.storyboard */,
 				59037F7A267881B600AEADA4 /* Assets.xcassets */,
 				59037F7C267881B600AEADA4 /* LaunchScreen.storyboard */,
 				59037F7F267881B600AEADA4 /* Info.plist */,
-				59037F77267881B500AEADA4 /* AutomatingCloudKitDemo.xcdatamodeld */,
 			);
 			path = AutomatingCloudKitDemo;
 			sourceTree = "<group>";
@@ -169,8 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59037F79267881B500AEADA4 /* AutomatingCloudKitDemo.xcdatamodeld in Sources */,
 				59037F73267881B500AEADA4 /* ViewController.swift in Sources */,
+				59D078FB267D858D00C26FC1 /* Department.swift in Sources */,
 				59037F6F267881B500AEADA4 /* AppDelegate.swift in Sources */,
 				59037F71267881B500AEADA4 /* SceneDelegate.swift in Sources */,
 			);
@@ -398,19 +396,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		59037F77267881B500AEADA4 /* AutomatingCloudKitDemo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				59037F78267881B500AEADA4 /* AutomatingCloudKitDemo.xcdatamodel */,
-			);
-			currentVersion = 59037F78267881B500AEADA4 /* AutomatingCloudKitDemo.xcdatamodel */;
-			path = AutomatingCloudKitDemo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 59037F63267881B500AEADA4 /* Project object */;
 }
