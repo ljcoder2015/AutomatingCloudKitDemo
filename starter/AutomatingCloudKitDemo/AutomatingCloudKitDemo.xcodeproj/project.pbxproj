@@ -7,104 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		59037F6F267881B500AEADA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59037F6E267881B500AEADA4 /* AppDelegate.swift */; };
-		59037F71267881B500AEADA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59037F70267881B500AEADA4 /* SceneDelegate.swift */; };
-		59037F73267881B500AEADA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59037F72267881B500AEADA4 /* ViewController.swift */; };
-		59037F76267881B500AEADA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59037F74267881B500AEADA4 /* Main.storyboard */; };
-		59037F7B267881B600AEADA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59037F7A267881B600AEADA4 /* Assets.xcassets */; };
-		59037F7E267881B600AEADA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59037F7C267881B600AEADA4 /* LaunchScreen.storyboard */; };
-		59CCFD5B267C2E7700E7A460 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CCFD5A267C2E7700E7A460 /* CloudKit.framework */; };
-		59CCFD6C267C772A00E7A460 /* CloudKitSchema.ckdb in Resources */ = {isa = PBXBuildFile; fileRef = 59CCFD6B267C772A00E7A460 /* CloudKitSchema.ckdb */; };
-		59D078FB267D858D00C26FC1 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D078FA267D858D00C26FC1 /* Department.swift */; };
+		59BD0E79268024AD0029321C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD0E78268024AD0029321C /* AppDelegate.swift */; };
+		59BD0E7B268024AD0029321C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD0E7A268024AD0029321C /* SceneDelegate.swift */; };
+		59BD0E82268024AF0029321C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59BD0E81268024AF0029321C /* Assets.xcassets */; };
+		59BD0E85268024AF0029321C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BD0E83268024AF0029321C /* LaunchScreen.storyboard */; };
+		59BD0E8F268025E00029321C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BD0E8C268025E00029321C /* Main.storyboard */; };
+		59BD0E90268025E00029321C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD0E8D268025E00029321C /* ViewController.swift */; };
+		59BD0E91268025E00029321C /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD0E8E268025E00029321C /* Department.swift */; };
+		59BD0E95268026330029321C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BD0E94268026330029321C /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		59037F6B267881B500AEADA4 /* AutomatingCloudKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomatingCloudKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		59037F6E267881B500AEADA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59037F70267881B500AEADA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		59037F72267881B500AEADA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		59037F75267881B500AEADA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		59037F7A267881B600AEADA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		59037F7D267881B600AEADA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		59037F7F267881B600AEADA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59CCFD5A267C2E7700E7A460 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		59CCFD62267C3AFB00E7A460 /* AutomatingCloudKitDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomatingCloudKitDemoTests.swift; sourceTree = "<group>"; };
-		59CCFD6B267C772A00E7A460 /* CloudKitSchema.ckdb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CloudKitSchema.ckdb; sourceTree = "<group>"; };
-		59D078FA267D858D00C26FC1 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		59BD0E75268024AD0029321C /* AutomatingCloudKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomatingCloudKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BD0E78268024AD0029321C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59BD0E7A268024AD0029321C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59BD0E81268024AF0029321C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59BD0E84268024AF0029321C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59BD0E86268024AF0029321C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BD0E8C268025E00029321C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		59BD0E8D268025E00029321C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59BD0E8E268025E00029321C /* Department.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		59BD0E922680262E0029321C /* AutomatingCloudKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutomatingCloudKitDemo.entitlements; sourceTree = "<group>"; };
+		59BD0E94268026330029321C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		59037F68267881B500AEADA4 /* Frameworks */ = {
+		59BD0E72268024AD0029321C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59CCFD5B267C2E7700E7A460 /* CloudKit.framework in Frameworks */,
+				59BD0E95268026330029321C /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		59037F62267881B500AEADA4 = {
+		59BD0E6C268024AD0029321C = {
 			isa = PBXGroup;
 			children = (
-				59037F6D267881B500AEADA4 /* AutomatingCloudKitDemo */,
-				59CCFD61267C3AFB00E7A460 /* AutomatingCloudKitDemoTests */,
-				59037F6C267881B500AEADA4 /* Products */,
-				59CCFD59267C2E7700E7A460 /* Frameworks */,
+				59BD0E77268024AD0029321C /* AutomatingCloudKitDemo */,
+				59BD0E76268024AD0029321C /* Products */,
+				59BD0E93268026330029321C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		59037F6C267881B500AEADA4 /* Products */ = {
+		59BD0E76268024AD0029321C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59037F6B267881B500AEADA4 /* AutomatingCloudKitDemo.app */,
+				59BD0E75268024AD0029321C /* AutomatingCloudKitDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		59037F6D267881B500AEADA4 /* AutomatingCloudKitDemo */ = {
+		59BD0E77268024AD0029321C /* AutomatingCloudKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				59CCFD6B267C772A00E7A460 /* CloudKitSchema.ckdb */,
-				59037F6E267881B500AEADA4 /* AppDelegate.swift */,
-				59037F70267881B500AEADA4 /* SceneDelegate.swift */,
-				59037F72267881B500AEADA4 /* ViewController.swift */,
-				59D078FA267D858D00C26FC1 /* Department.swift */,
-				59037F74267881B500AEADA4 /* Main.storyboard */,
-				59037F7A267881B600AEADA4 /* Assets.xcassets */,
-				59037F7C267881B600AEADA4 /* LaunchScreen.storyboard */,
-				59037F7F267881B600AEADA4 /* Info.plist */,
+				59BD0E922680262E0029321C /* AutomatingCloudKitDemo.entitlements */,
+				59BD0E78268024AD0029321C /* AppDelegate.swift */,
+				59BD0E7A268024AD0029321C /* SceneDelegate.swift */,
+				59BD0E8D268025E00029321C /* ViewController.swift */,
+				59BD0E8E268025E00029321C /* Department.swift */,
+				59BD0E8C268025E00029321C /* Main.storyboard */,
+				59BD0E81268024AF0029321C /* Assets.xcassets */,
+				59BD0E83268024AF0029321C /* LaunchScreen.storyboard */,
+				59BD0E86268024AF0029321C /* Info.plist */,
 			);
 			path = AutomatingCloudKitDemo;
 			sourceTree = "<group>";
 		};
-		59CCFD59267C2E7700E7A460 /* Frameworks */ = {
+		59BD0E93268026330029321C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				59CCFD5A267C2E7700E7A460 /* CloudKit.framework */,
+				59BD0E94268026330029321C /* CloudKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		59CCFD61267C3AFB00E7A460 /* AutomatingCloudKitDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				59CCFD62267C3AFB00E7A460 /* AutomatingCloudKitDemoTests.swift */,
-			);
-			path = AutomatingCloudKitDemoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		59037F6A267881B500AEADA4 /* AutomatingCloudKitDemo */ = {
+		59BD0E74268024AD0029321C /* AutomatingCloudKitDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59037F82267881B600AEADA4 /* Build configuration list for PBXNativeTarget "AutomatingCloudKitDemo" */;
+			buildConfigurationList = 59BD0E89268024AF0029321C /* Build configuration list for PBXNativeTarget "AutomatingCloudKitDemo" */;
 			buildPhases = (
-				59037F67267881B500AEADA4 /* Sources */,
-				59037F68267881B500AEADA4 /* Frameworks */,
-				59037F69267881B500AEADA4 /* Resources */,
+				59BD0E71268024AD0029321C /* Sources */,
+				59BD0E72268024AD0029321C /* Frameworks */,
+				59BD0E73268024AD0029321C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -112,25 +101,25 @@
 			);
 			name = AutomatingCloudKitDemo;
 			productName = AutomatingCloudKitDemo;
-			productReference = 59037F6B267881B500AEADA4 /* AutomatingCloudKitDemo.app */;
+			productReference = 59BD0E75268024AD0029321C /* AutomatingCloudKitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		59037F63267881B500AEADA4 /* Project object */ = {
+		59BD0E6D268024AD0029321C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					59037F6A267881B500AEADA4 = {
+					59BD0E74268024AD0029321C = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = 59037F66267881B500AEADA4 /* Build configuration list for PBXProject "AutomatingCloudKitDemo" */;
+			buildConfigurationList = 59BD0E70268024AD0029321C /* Build configuration list for PBXProject "AutomatingCloudKitDemo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,57 +127,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 59037F62267881B500AEADA4;
-			productRefGroup = 59037F6C267881B500AEADA4 /* Products */;
+			mainGroup = 59BD0E6C268024AD0029321C;
+			productRefGroup = 59BD0E76268024AD0029321C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				59037F6A267881B500AEADA4 /* AutomatingCloudKitDemo */,
+				59BD0E74268024AD0029321C /* AutomatingCloudKitDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		59037F69267881B500AEADA4 /* Resources */ = {
+		59BD0E73268024AD0029321C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59037F7E267881B600AEADA4 /* LaunchScreen.storyboard in Resources */,
-				59CCFD6C267C772A00E7A460 /* CloudKitSchema.ckdb in Resources */,
-				59037F7B267881B600AEADA4 /* Assets.xcassets in Resources */,
-				59037F76267881B500AEADA4 /* Main.storyboard in Resources */,
+				59BD0E8F268025E00029321C /* Main.storyboard in Resources */,
+				59BD0E85268024AF0029321C /* LaunchScreen.storyboard in Resources */,
+				59BD0E82268024AF0029321C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		59037F67267881B500AEADA4 /* Sources */ = {
+		59BD0E71268024AD0029321C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59037F73267881B500AEADA4 /* ViewController.swift in Sources */,
-				59D078FB267D858D00C26FC1 /* Department.swift in Sources */,
-				59037F6F267881B500AEADA4 /* AppDelegate.swift in Sources */,
-				59037F71267881B500AEADA4 /* SceneDelegate.swift in Sources */,
+				59BD0E90268025E00029321C /* ViewController.swift in Sources */,
+				59BD0E79268024AD0029321C /* AppDelegate.swift in Sources */,
+				59BD0E7B268024AD0029321C /* SceneDelegate.swift in Sources */,
+				59BD0E91268025E00029321C /* Department.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		59037F74267881B500AEADA4 /* Main.storyboard */ = {
+		59BD0E83268024AF0029321C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				59037F75267881B500AEADA4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		59037F7C267881B600AEADA4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				59037F7D267881B600AEADA4 /* Base */,
+				59BD0E84268024AF0029321C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -196,7 +176,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		59037F80267881B600AEADA4 /* Debug */ = {
+		59BD0E87268024AF0029321C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +217,6 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -258,7 +237,7 @@
 			};
 			name = Debug;
 		};
-		59037F81267881B600AEADA4 /* Release */ = {
+		59BD0E88268024AF0029321C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +276,6 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -314,7 +292,7 @@
 			};
 			name = Release;
 		};
-		59037F83267881B600AEADA4 /* Debug */ = {
+		59BD0E8A268024AF0029321C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,7 +301,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WW6UD727NP;
-				GCC_PREFIX_HEADER = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AutomatingCloudKitDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -344,7 +321,7 @@
 			};
 			name = Debug;
 		};
-		59037F84267881B600AEADA4 /* Release */ = {
+		59BD0E8B268024AF0029321C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -353,7 +330,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WW6UD727NP;
-				GCC_PREFIX_HEADER = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AutomatingCloudKitDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -377,25 +353,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		59037F66267881B500AEADA4 /* Build configuration list for PBXProject "AutomatingCloudKitDemo" */ = {
+		59BD0E70268024AD0029321C /* Build configuration list for PBXProject "AutomatingCloudKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59037F80267881B600AEADA4 /* Debug */,
-				59037F81267881B600AEADA4 /* Release */,
+				59BD0E87268024AF0029321C /* Debug */,
+				59BD0E88268024AF0029321C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59037F82267881B600AEADA4 /* Build configuration list for PBXNativeTarget "AutomatingCloudKitDemo" */ = {
+		59BD0E89268024AF0029321C /* Build configuration list for PBXNativeTarget "AutomatingCloudKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59037F83267881B600AEADA4 /* Debug */,
-				59037F84267881B600AEADA4 /* Release */,
+				59BD0E8A268024AF0029321C /* Debug */,
+				59BD0E8B268024AF0029321C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 59037F63267881B500AEADA4 /* Project object */;
+	rootObject = 59BD0E6D268024AD0029321C /* Project object */;
 }
