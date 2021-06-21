@@ -1,0 +1,27 @@
+DEFINE SCHEMA
+    CREATE ROLE ljcoder4;
+
+    RECORD TYPE Department (
+        "___createTime" TIMESTAMP QUERYABLE SORTABLE,
+        "___recordID" REFERENCE QUERYABLE,
+        name STRING,
+        address STRING,
+        phone LIST<STRING>,
+        employees LIST<REFERENCE>,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world",
+        GRANT WRITE, CREATE, READ TO ljcoder4
+    );
+
+    RECORD TYPE Employee (
+        "___createTime" TIMESTAMP QUERYABLE SORTABLE,
+        "___recordID" REFERENCE QUERYABLE,
+        name STRING,
+        address STRING,
+        hiredate TIMESTAMP,
+        salary INT64,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1300"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "59BD0E74268024AD0029321C"
+               BuildableName = "AutomatingCloudKitDemo.app"
+               BlueprintName = "AutomatingCloudKitDemo"
+               ReferencedContainer = "container:AutomatingCloudKitDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;xcrun cktool reset-schema    \&#10;    --team-id WW6UD727NP        \&#10;    --container-id iCloud.com.ljcoder.AutomatingCloudKitDemo&#10;&#10;xcrun cktool import-schema         \&#10;    --team-id WW6UD727NP           \&#10;    --container-id iCloud.com.ljcoder.AutomatingCloudKitDemo    \&#10;    --environment development     \&#10;    --file $PROJECT_DIR/AutomatingCloudKitDemo/CloudKitSchema.ckdb&#10;&#10;xcrun cktool create-record        \&#10;    --team-id WW6UD727NP            \&#10;    --container-id iCloud.com.ljcoder.AutomatingCloudKitDemo   \&#10;    --zone-name _defaultZone         \&#10;    --database-type private     \&#10;    --environment development    \&#10;    --record-type Department    \&#10;    --fields-json &apos;{&#10;        &quot;name&quot;: {&#10;        &quot;type&quot;: &quot;stringType&quot;,&#10;        &quot;value&quot;: &quot;IT&#x90e8;&#x95e8;&quot;&#10;        },&#10;        &quot;address&quot;: {&#10;        &quot;type&quot;: &quot;stringType&quot;,&#10;        &quot;value&quot;: &quot;&#x5e7f;&#x5dde;&quot;&#10;        }&#10;    }&apos;&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "59BD0E74268024AD0029321C"
+                     BuildableName = "AutomatingCloudKitDemo.app"
+                     BlueprintName = "AutomatingCloudKitDemo"
+                     ReferencedContainer = "container:AutomatingCloudKitDemo.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "59BD0E74268024AD0029321C"
+            BuildableName = "AutomatingCloudKitDemo.app"
+            BlueprintName = "AutomatingCloudKitDemo"
+            ReferencedContainer = "container:AutomatingCloudKitDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "59BD0E74268024AD0029321C"
+            BuildableName = "AutomatingCloudKitDemo.app"
+            BlueprintName = "AutomatingCloudKitDemo"
+            ReferencedContainer = "container:AutomatingCloudKitDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
